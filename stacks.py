@@ -12,7 +12,7 @@ class Stack():
             returnVal = self.stack[self.pointer]
             # the next line can either exist or not, if not then it would just be
             # treated as garbage values which would then be overwritten
-            self.stack[self.pointer] = None
+            # self.stack[self.pointer] = None
             self.pointer -= 1
             return returnVal
         return False
